@@ -1,0 +1,22 @@
+<div class="container" style="width: 500px">
+<h1>Stupid Coaching</h1>
+
+<figure class="yellow-background">
+  <blockquote class="blockquote">
+    <p><%= @question %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    You
+  </figcaption>
+</figure>
+
+<figure class="yellow-background">
+  <blockquote class="blockquote">
+    <p><%= @answer %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Your coach
+  </figcaption>
+</figure>
+<%= link_to "Make another question", ask_path %>
+</div>
